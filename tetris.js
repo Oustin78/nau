@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @Oustin78
- Sign out
- Watch 5
-  Star 47  Fork 33 meth-meth-method/tetris
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Branch: master Find file Copy pathtetris/tetris.js
-89aa219  on 8 Sep 2016
-@pomle pomle Add score counting.
-1 contributor
-RawBlameHistory     
-250 lines (221 sloc)  5.25 KB
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
@@ -265,15 +247,3 @@ const player = {
 playerReset();
 updateScore();
 update();
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
